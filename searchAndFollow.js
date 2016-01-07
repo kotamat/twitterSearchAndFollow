@@ -1,6 +1,9 @@
 var xhr = new XMLHttpRequest();
 var request= function(user_id){
+xhr.open('POST', 'https://twitter.com/i/user/follow', false);
+
   // TODO: [request send]
+
 xhr.abort();
 }
 var es = window.document.getElementsByClassName('original-tweet');
